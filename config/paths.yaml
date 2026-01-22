@@ -1,0 +1,11 @@
+data:
+  raw: data/raw/
+  processed: data/processed/
+  modeling: data/modeling/
+
+models:
+  saved: models/
+
+figures:
+  output: figures/
+

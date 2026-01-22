@@ -1,0 +1,5 @@
+project:
+  name: Energy Demand Forecasting
+  random_seed: 42
+  target: value
+
