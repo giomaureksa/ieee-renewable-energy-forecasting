@@ -104,11 +104,13 @@ XGBoost was selected as the final production model.
 ---
 
 ## Project Structure
-- `notebooks/` → step-by-step development
-- `src/` → reusable production code
-- `models/` → trained models
-- `outputs/` → predictions & figures
-- `docs/` → documentation
+- `notebooks/` → step-by-step development (EDA, feature engineering, modeling)
+- `src/` → reusable production-ready code (data, features, models, utils)
+- `config/` → centralized configuration files (paths, model parameters)
+- `assets/` → conceptual assets (pipeline, workflow, architecture diagrams)
+- `figures/` → saved visualizations (test set evaluation only)
+- `results/` → final predictions
+- `docs/` → project documentation and summaries
 
 ---
 
