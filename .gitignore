@@ -21,7 +21,7 @@ anaconda/
 # ==============================
 # Assets
 # ==============================
-assets/ *.webp
+assets/*.webp
 
 # ==============================
 # Data (DO NOT COMMIT DATA)
