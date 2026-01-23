@@ -12,6 +12,35 @@ consumption patterns are used to predict future demand.
 
 ---
 
+## Dataset
+
+### Source
+
+This project uses data from the **IEEE CIS Technical Challenge: Predict and Optimize Renewable Energy Scheduling**.
+
+Official dataset link:
+https://ieee-dataport.org/competitions/ieee-cis-technical-challenge-predictoptimize-renewable-energy-scheduling#files
+
+> Access to the dataset requires an IEEE DataPort account.
+
+### Dataset Notes
+
+- Raw datasets are **NOT included** in this repository due to licensing constraints.
+- Users must manually download the dataset and place it into the appropriate folder.
+- The project focuses on **building energy consumption time series data**.
+- External exogenous datasets (e.g., ERA5 weather data) are **intentionally excluded**
+  to maintain a clean baseline forecasting pipeline.
+
+### Data Splits
+
+| Split | Period | Purpose |
+|------|-------|--------|
+| Training | Jan 2016 – Sep 2020 | Model training |
+| Validation | Jan 2016 – Oct 2020 | Hyperparameter tuning |
+| Test | Jan 2016 – Nov 2020 | Final model evaluation |
+
+---
+
 ## Problem Statement
 Accurate energy demand forecasting is a critical component in modern
 energy systems, affecting:
