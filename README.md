@@ -1,4 +1,4 @@
-# Energy Demand Forecasting Using Gradient Boosting Models
+# Building Energy Consumption Forecasting using LightGBM & XGBoost
 
 ## Overview
 This project demonstrates a **production-style machine learning pipeline**
